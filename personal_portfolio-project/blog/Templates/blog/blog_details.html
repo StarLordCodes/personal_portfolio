@@ -1,0 +1,8 @@
+{% extends 'portfolio/navbar.html' %}
+{% block content %}
+<div>
+    <h1>{{ blog_object.title|upper }}</h1>
+    <h4> {{ blog_object.date }}</h4>
+    <p> {{ blog_object.description }}</p>
+</div>
+{% endblock %}
